@@ -1,0 +1,52 @@
+# 工程生成目录
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.srcs/
+*.xpr.*
+
+# Vivado临时文件
+*.jou
+*.log
+*.str
+*.backup.log
+
+# Vivado模块设计
+*.bd.*
+*.bd
+
+# IP自动生成目录
+ipshared/
+*.ip_user_files/
+*.gen/
+*.tmp/
+*.ip/
+
+# Xilinx IP核输出
+*.dcp
+*.xci
+*.sim/sim_1/behav/
+
+# 仿真文件
+xsim.dir/
+*.wdb
+*.vcd
+*.vpd
+*.fst
+*.saif
+
+# 综合/实现输出
+*.rpt
+*.dcp
+*.bit
+*.bin
+*.ltx
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# Vivado项目文件
+*.xpr
